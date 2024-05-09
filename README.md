@@ -1,0 +1,2 @@
+# shopifypricingcalc
+Shopify pricing calculator
