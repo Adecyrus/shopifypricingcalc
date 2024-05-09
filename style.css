@@ -1,0 +1,72 @@
+ body { margin:0;padding:0; }
+   <table width="100%" border="1">
+#calculator {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 15px
+  margin-bottom: 5px
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+
+.input-fields {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-fields label {
+  margin-bottom: 5px;
+}
+
+.input-fields input {
+  padding: 8px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.input-fields button {
+  padding: 10px 20px;
+  background-color: #02590F;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.results {
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 0.5px solid #5f9ea0;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #90EE90;
+}
+.highlighted {
+  background-color: lightyellow; /* You can adjust the color as needed */
+}
+
+.highlighted td, .highlighted th {
+  font-weight: bold;
+}
+@media only screen and (max-width: 400px) {
+    /* horizontal scrollbar for tables if mobile screen */
+    .tablemobile {
+        overflow-x: auto;
+        display: block;
+    }
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopify Pricing Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="calculator">
+    <div class="input-fields">
+      <label for="avg-order-value"><b>Average Order Value ($)</b></label>
+      <input type="number" id="avg-order-value">
+      <label for="num-orders"><b>Number of Orders/Month</b></label>
+      <input type="number" id="num-orders">
+      <button onclick="calculate()">Calculate</button>
+    </div>
+    <div id="results" class="results"></div>
+  </div>
+ <script src="script.js"></script>
+</body>
+</html>
